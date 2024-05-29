@@ -2,18 +2,14 @@
 
 This is the best, fastest, and most efficient self-bundling script for PumpFun, allowing you to create a pool with your own 25 buyers in one single bundle.
 
+# How to Purchase the Script:
+Join my discord server: https://discord.gg/EFaWXvzQVu or if you want to DM me Discord message @thesolbaker 
+
 **Other tools**
 - Volume Maker JITO/Non-JITO
 - Holders/Buyers Maker JITO
 - Raydium JITO Bundler
 - Raydium Non-JITO Bundler
-
-# Support:
-Joing my discord: https://discord.gg/EFaWXvzQVu
-
-Server: 
-
-My discord: thesolbaker
 
 ## Features
 
