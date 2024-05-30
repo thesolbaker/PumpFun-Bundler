@@ -5,7 +5,6 @@ This is the best, fastest, and most efficient self-bundling script for PumpFun, 
 # How to Purchase the Script:
 Join my discord server: https://discord.gg/EFaWXvzQVu or if you want to DM me on discord @thesolbaker
 
-
 **Other tools**
 - Volume Maker JITO/Non-JITO
 - Holders/Buyers Maker JITO
@@ -14,32 +13,25 @@ Join my discord server: https://discord.gg/EFaWXvzQVu or if you want to DM me on
 
 ## Features
 
-### Seamless UI
-- ** Seamless UI:** Experience a straightforward and completely automatic user interface designed for ease of use and efficiency.
-
-### Custom LUT Program
-- ** Custom LUT Program:** Leverage our custom LUT (Look-Up Table) program to optimize your launch strategies.
-
-### Automatic Supply Deviation
-- ** Automatic Supply Deviation:** Automatically manage supply deviations to ensure smooth and efficient launches.
+### Clean UI
+- Created an easy to use and intuitive user interface
 
 ### Custom Configurable Buyers
-- ** 25 Custom Configurable Buyers:** Customize and configure up to 25 different keypar buyers. (1 Deployer Wallet + 24 additional wallets)
+- Setup up to 25 different keypar buyers. (24 additional wallets + 1 Dev Wallet)
 
 ### Unmatched Performance
-- ** Unmatched Performance, Stability, and Speed:** Benefit from the unparalleled performance, stability, and speed of our tool.
-
-### Custom Onchain Program
-- **📂 Custom Onchain Program:** My bespoke onchain program makes everything possible, ensuring seamless integration and operation.
+- High performance, robust code with fast execution times
 
 ### Complex Sell Strategies
-- ** Extremely Complex Sell Strategies:** Implemented percentage sell or sell all wallets simulatenously
+- Abitility to sell a percentage of wallet or sell all wallets simulatenously
 
 ## Installation
 
 To get started with the Pump.Fun Launch Bundle Tool, follow these steps:
 
 1. Join my Discord (https://discord.gg/EFaWXvzQVu) and open a ticket. Or DM me privately on Discord @thesolbaker
+
+2. Purchase the script
    
 3. Navigate to the project directory:
     ```bash
@@ -47,22 +39,27 @@ To get started with the Pump.Fun Launch Bundle Tool, follow these steps:
     ```
 4. Install the necessary dependencies:
     ```bash
-    npm install
+    yarn install
     ```
 5. Edit the config file:
     ```plaintext
     SOLANA_RPC_URL=<your-rpc>
-    PRIVATE_KEY=<your-private-key-bs58>
+
+    Deployer Payer 
+    Fee Payer PRIVATE_KEY=<your-private-key-bs58>
     ```
-6. Start the application:
+6. Generate your wallets then automatically send SOL to the different wallets using our easy system
+   
+7. Run the application and be the first 25 buyers of your token:
     ```bash
-    npm start
+    node main.js
     ```
 
 ## Usage
 
-1. Configure your buyers and launch settings using the intuitive UI.
-2. Start the bundling process and let the tool handle the rest automatically.
-3. Profit
+1. Go to the configure.js file and fill out the details in there (Fee payer private key, Deployer private key, and RPC URL)
+2. Disperse customized amounts to your 24 extra wallets
+3. Launch
+4. Profit
 
 
