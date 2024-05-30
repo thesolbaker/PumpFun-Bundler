@@ -45,8 +45,8 @@ To get started with the Pump.Fun Launch Bundle Tool, follow these steps:
     ```plaintext
     SOLANA_RPC_URL=<your-rpc>
 
-    Deployer Payer 
-    Fee Payer PRIVATE_KEY=<your-private-key-bs58>
+    Deployer Payer = <your-fee-private-key-bs58>
+    Fee Payer PRIVATE_KEY = <your-fee-private-key-bs58>
     ```
 6. Generate your wallets then automatically send SOL to the different wallets using our easy system
    
